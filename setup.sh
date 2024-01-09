@@ -40,7 +40,7 @@ echo "Y Y Y" | sudo sensors-detect
 
 # --- Setting up ZSH ---
 #zsh
-sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+echo "N exit" | sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 rm .zshrc
 wget https://raw.githubusercontent.com/LoBrol/ubuntu_docker/main/file_to_be_copied/.zshrc
