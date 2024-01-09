@@ -59,7 +59,7 @@ sudo apt install docker-ce
 # --- Setting up DOCKER ---
 sudo usermod -aG docker ${USER}
 su - ${USER}
-sudo usermod -aG docker user
+sudo usermod -aG docker ${USER}
 
 
 
