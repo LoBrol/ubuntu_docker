@@ -61,8 +61,3 @@ sudo apt install -y docker-ce
 sudo usermod -aG docker ${USER}
 su - ${USER}
 sudo usermod -aG docker ${USER}
-
-
-
-# --- Test DOCKER ---
-docker run hello-world
