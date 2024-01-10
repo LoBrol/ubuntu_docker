@@ -44,6 +44,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 rm .zshrc
 wget https://raw.githubusercontent.com/LoBrol/ubuntu_docker/main/file_to_be_copied/.zshrc
 wget https://raw.githubusercontent.com/LoBrol/ubuntu_docker/main/file_to_be_copied/.p10k.zsh
+chsh -s /bin/zsh
 
 
 
