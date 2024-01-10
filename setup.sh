@@ -28,6 +28,7 @@ sudo wget https://raw.githubusercontent.com/LoBrol/ubuntu_docker/main/file_to_be
 # --- Setting up MOTD ---
 sudo rm -rf /etc/legal
 sudo chmod -x /etc/update-motd.d/10-help-text
+sudo chmod -x /etc/update-motd.d/50-motd-news
 sudo wget https://raw.githubusercontent.com/LoBrol/ubuntu_docker/main/file_to_be_copied/20-neofetch -P /etc/update-motd.d/
 sudo chmod +x /etc/update-motd.d/20-neofetch
 
